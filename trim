@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 
 NUM_TO_SHOW="${1:-5}"
 INPUT=$(</dev/stdin)
