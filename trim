@@ -1,0 +1,9 @@
+#!/usr/bin/env zsh
+
+NUM_TO_SHOW="${1:-5}"
+INPUT=$(</dev/stdin)
+NUM_LINES=$(echo "$INPUT" | wc -l)
+REMAINING="$((NUM_LINES-NUM_TO_SHOW))"
+OUT=$(head -n "${NUM_TO_SHOW}")
+echo "$( echo "$INPUT" | head -n "$NUM_TO_SHOW" )"
+echo "... with $REMAINING lines remaining"
