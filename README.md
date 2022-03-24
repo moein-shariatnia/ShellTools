@@ -1,5 +1,7 @@
 ## Handy Shell Scripts
 
+I put simple and handy shell tools that I've written and use regularly in my terminal.
+
 ### Trim
 Useful when you want to see the first few lines of another command. You can pipe the outputs to it like this:
 
